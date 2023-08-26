@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import blog from "../../Assets/Projects/blog.png";
 import dance from "../../Assets/Projects/dance.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import restaurant from "../../Assets/Projects/restaurant.png";
 
 function Projects() {
@@ -53,18 +50,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={leaf}
               isBlog={false}
               title="project-card"
               description="Namashkar"
               ghLink=""
-              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={suicide}
               isBlog={false}
               title="project-card"
               description=" Hello i am"
@@ -74,7 +68,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={emotion}
               isBlog={false}
               title="Sahil Pathariya"
               description=""
