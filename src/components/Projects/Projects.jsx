@@ -47,33 +47,6 @@ function Projects() {
               ghLink="https://github.com/spathariya007/Blog"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="project-card"
-              description="Namashkar"
-              ghLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="project-card"
-              description=" Hello i am"
-              ghLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Sahil Pathariya"
-              description=""
-              ghLink=""
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
